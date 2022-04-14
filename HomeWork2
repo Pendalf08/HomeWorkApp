@@ -1,0 +1,32 @@
+package HomeWorkApp;
+
+public class HomeWorkApp2 {
+
+    public static void main(String[] args) {
+        chekOne(a, b);
+        System.out.println(chekOne(a, b));
+        chekTwo();
+        chekThree();
+     
+    }
+    public static boolean chekOne(int a, int b) {
+        if (a + b <= 20 && a + b >= 10) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    public static void chekTwo(int a) {
+        if (a >= 0)
+            System.out.println("Число положительное");
+        else
+            System.out.println("Число отрицательное");
+    }
+    public static boolean chekThree(int a) {
+        if (a < 0) return true;
+        return false;
+    }
+
+
+}
